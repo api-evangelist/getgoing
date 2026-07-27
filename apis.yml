@@ -1,20 +1,82 @@
 aid: getgoing
 name: GetGoing
-description: GetGoing is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  GetGoing is a cloud-based corporate travel and expense (T&E) management
+  platform for small and midsize businesses, built and operated by BCD Travel.
+  It combines self-service booking of flights, hotels, rental cars and rail with
+  automated travel and expense policy enforcement, pre-trip approval flows,
+  streamlined payments and invoicing, traveler safety and duty-of-care, and
+  analytics dashboards in a single product that can be implemented in under two
+  hours. GetGoing pairs the digital self-service experience with BCD Travel's
+  global travel-management expertise and support, and is offered across the
+  United States, United Kingdom, France, Germany, the Netherlands and Belgium.
+  GetGoing does not publish a first-party public developer API; programmatic
+  travel integration is provided by the separate, authorization-gated BCD Travel
+  Developer Hub.
 url: https://raw.githubusercontent.com/api-evangelist/getgoing/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.getgoing.com/wp-content/uploads/2024/06/cropped-GetGoing-Favicon-2024.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-identity-note: >-
+  Domain match resolves to GetGoing, BCD Travel's SMB travel & expense platform
+  (github.com/getgoing is the BCD Travel org). No first-party public API surface;
+  the a16z portfolio tag is the unverified stub provenance from the VC-portfolio
+  scrape and does not reflect a confirmed investment.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 tags:
 - Company
+- Travel
+- Corporate Travel
+- Travel Management
+- Expense Management
+- Booking
+- SaaS
+- Fintech
+- SMB
 apis: []
+common:
+- type: DomainSecurity
+  url: security/getgoing-domain-security.yml
+- type: Website
+  url: https://www.getgoing.com/
+- type: Pricing
+  url: https://www.getgoing.com/pricing/
+- type: SignUp
+  url: https://www.getgoing.com/schedule-a-demo/
+- type: Login
+  url: https://app.getgoing.com/
+- type: Support
+  url: https://help.getgoing.com/en/support/home
+- type: Blog
+  url: https://www.getgoing.com/blog/
+- type: TermsOfService
+  url: https://www.bcdtravel.com/legal/
+- type: PrivacyPolicy
+  url: https://www.bcdtravel.com/privacy-policy/
+- type: GitHubOrganization
+  url: https://github.com/getgoing
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
