@@ -37,7 +37,7 @@ x-identity-note: >-
   (github.com/getgoing is the BCD Travel org). No first-party public API surface;
   the a16z portfolio tag is the unverified stub provenance from the VC-portfolio
   scrape and does not reflect a confirmed investment.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 x-enrichment:
